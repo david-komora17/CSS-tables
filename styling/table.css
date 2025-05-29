@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+.basic th, td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+
+}
+.basic th{
+    background-color: rgb(66, 226, 172);
+}
+.zebra{
+    width: 100%;
+    border-collapse: collapse;   
+
+}
+.zebra th,td{
+    border: 1px solid;
+    padding: 10px ;
+    text-align: left;
+}
+.zebra tr:nth-child(odd){
+    background-color: blueviolet;
+}
+.zebra tr:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.zerod tr:hover{
+    color: red;
+    cursor: pointer;
+}
+.zerod tr:nth-child(odd){
+    background-color: aquamarine;
+    color: blueviolet;
+}
